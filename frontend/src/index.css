@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@keyframes wave {
+
+  0%,
+  100% {
+    transform: scaleY(0.5);
+  }
+
+  50% {
+    transform: scaleY(1.5);
+  }
+}
+
+.animate-wave {
+  animation: wave 1s infinite ease-in-out;
+}
